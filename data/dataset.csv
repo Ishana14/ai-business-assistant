@@ -1,0 +1,105 @@
+text,category
+Schedule a meeting tomorrow,meeting
+Book a meeting with client,meeting
+Arrange a call with team,meeting
+Set up meeting for project discussion,meeting
+Fix meeting at 10 AM,meeting
+Plan a meeting for next week,meeting
+Organize client meeting,meeting
+I want to meet tomorrow,meeting
+Schedule a Zoom call,meeting
+Create meeting with manager,meeting
+Please arrange a meeting asap,meeting
+Can you book a meeting for me,meeting
+Schedule discussion with team lead,meeting
+Set meeting for project update,meeting
+Arrange appointment with client,meeting
+Fix a call with customer,meeting
+Schedule business meeting,meeting
+Book appointment for tomorrow,meeting
+Set up discussion session,meeting
+Organize a team call,meeting
+
+Send invoice to client,invoice
+Generate invoice for payment,invoice
+Create bill for services,invoice
+Prepare invoice document,invoice
+Make invoice for project,invoice
+Issue invoice to customer,invoice
+Generate billing statement,invoice
+Create payment invoice,invoice
+Send bill to client,invoice
+Prepare invoice for work,invoice
+Make billing document,invoice
+Create tax invoice,invoice
+Generate payment request,invoice
+Issue bill for service,invoice
+Send invoice copy,invoice
+Prepare invoice report,invoice
+Create invoice for client work,invoice
+Generate professional invoice,invoice
+Make invoice file,invoice
+Send billing details,invoice
+
+Reply to this email,email
+Write email response,email
+Draft a professional email,email
+Send reply to client,email
+Create email response,email
+Respond to customer email,email
+Write formal email,email
+Prepare email reply,email
+Send email back,email
+Draft reply for message,email
+Compose email response,email
+Reply to manager email,email
+Write business email,email
+Send response mail,email
+Create reply message,email
+Draft customer reply,email
+Write quick email,email
+Send email answer,email
+Prepare reply draft,email
+Compose formal reply,email
+
+Summarize this text,summary
+Give short summary,summary
+Make it brief,summary
+Summarize conversation,summary
+Provide summary of content,summary
+Shorten this text,summary
+Explain in short,summary
+Give quick summary,summary
+Summarize paragraph,summary
+Make summary of chat,summary
+Reduce to key points,summary
+Summarize document,summary
+Brief explanation needed,summary
+Condense this text,summary
+Give overview,summary
+Summarize details,summary
+Short version please,summary
+Explain briefly,summary
+Make it short,summary
+Provide brief notes,summary
+
+Create a task,task
+Add task to list,task
+Make to-do item,task
+Create new task for project,task
+Add this to task list,task
+Assign a task,task
+Create work item,task
+Add reminder task,task
+Make task for tomorrow,task
+Add this as task,task
+Create project task,task
+Put this in to-do list,task
+Add new work task,task
+Create action item,task
+Make checklist item,task
+Assign work item,task
+Create development task,task
+Add important task,task
+Make task entry,task
+Add job to list,task
