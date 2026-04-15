@@ -40,11 +40,17 @@
 
 from predictor import predict_intent
 
-from backend.modules import email_generator
-from backend.modules import invoice_generator
-from backend.modules import scheduler
-from backend.modules import summarizer
-from backend.modules import task_manager
+from modules import email_generator
+from modules import invoice_generator
+from modules import scheduler
+from modules import summarizer
+from modules import task_manager
+
+# from backend.modules import email_generator
+# from backend.modules import invoice_generator
+# from backend.modules import scheduler
+# from backend.modules import summarizer
+# from backend.modules import task_manager
 
 
 def route_task(user_input):
