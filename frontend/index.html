@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Business Assistant</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+            text-align: center;
+        }
+        #chat-box {
+            width: 60%;
+            margin: auto;
+            height: 400px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            background: white;
+            padding: 10px;
+        }
+        .user { color: blue; }
+        .bot { color: green; }
+    </style>
+</head>
+<body>
+
+<h2>🤖 AI Business Assistant</h2>
+
+<div id="chat-box"></div>
+
+<br>
+
+<input type="text" id="user-input" placeholder="Type your message..." size="50">
+<button onclick="sendMessage()">Send</button>
+
+<script>
+async function sendMessage() {
+    let input = document.getElementById("user-input").value;
+
+    // Show user message
+    let chatBox = document.getElementById("chat-box");
+    chatBox.innerHTML += `<p class="user">You: ${input}</p>`;
+
+    // Send to backend
+    let response = await fetch("http://127.0.0.1:8000/process", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ input_text: input })
+    });
+
+    let data = await response.json();
+
+    // Show AI response
+    chatBox.innerHTML += `<p class="bot">AI: ${data.response}</p>`;
+
+    document.getElementById("user-input").value = "";
+}
+</script>
+
+</body>
+</html>
